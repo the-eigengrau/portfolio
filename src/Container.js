@@ -38,15 +38,14 @@ class Container extends Component {
         <div className="DesktopBorder"></div>
         <div className="FeaturedCaseStudy">
         <p className="Text">FEATURED CASE STUDY</p>
-        <Link className="pLink" to='/design/casestudies/1'><div className="portfolioItem">
-          <div className="PortfolioImageOne"></div>
-          <p className="portfolioTitle">Better health for patients at Northwestern </p>
+        <Link className="pLink" to='/design/casestudies/3'><div className="portfolioItem">
+          <div className="PortfolioImageThree"></div>
+          <p className="portfolioTitle">Founding design at a venture-backed startup</p>
           <div className="tags">
             <p>UX</p>
             <p>Design Research</p>
           </div>
-          <p>Northwestern Medicine tasked us with creating a mobile app for patients with complex conditions seeking world-class specialists.</p>
-          <p>I performed user research, UX design, usability testing, and facilitated design workshops. <span>Learn more</span></p>
+          <p>The skills and experience I’ve gained at Treasure are some of the most important of my career. As the 6th employee at a high-growth company, I was responsible for founding the design team and launching our core product balancing speed of delivery with product desirability. <span>Learn more</span></p>
           </div>
         </Link>
         </div>
@@ -60,7 +59,7 @@ class Container extends Component {
           <Route path='/design/casestudies/6'><Six/></Route>
           <Route path='/design/casestudies/5'><Five/></Route>
           <Route path='/design/casestudies/4'><Four/></Route>
-          <Route path='/design/casestudies/3'><Three/></Route>
+          <Route path='/design/casestudies/3'><Three auth={false}/></Route>
           <Route path='/design/casestudies/2'><Two/></Route>
           <Route path='/design/casestudies/1'><One/></Route>
           <Route path="/design/casestudies"><Design /></Route>

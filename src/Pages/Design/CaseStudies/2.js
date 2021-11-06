@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../SCSS/CaseStudy.scss'
 import '../SCSS/DesktopCaseStudy.scss'
 import '../SCSS/Design.scss'
+
 import doc1 from './images/doc1.png'
 import doc2 from './images/doc2.png'
 import ipo1 from './images/ipo1.png'

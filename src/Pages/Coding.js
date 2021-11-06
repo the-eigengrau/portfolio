@@ -24,7 +24,7 @@ class Coding extends Component {
           <p className="designTitle">CODING PROJECTS</p>
           <div className="intro">
             <p className="good">Design is a conversation with materials.<br/></p>
-            <p>I work hard to master the beautiful subject of computer science on an essentially daily basis, usually during heavily caffeinated mornings.</p>
+            <p>I've worked hard to learn as much as I can about the beautiful subject of computer science. Coding is fun, fascinating, and a powerful way of interacting with the world.</p>
             <p>Check out the projects below or my <a href="https://github.com/the-eigengrau">GitHub</a> to see what I’ve been working on.</p>
           </div>
 
@@ -40,7 +40,7 @@ class Coding extends Component {
                       </AccordionSummary>
                       <AccordionDetails>
                         <div className="body">
-                          I've been taking evening classes at Northwestern University in computer science and math while working as a UX designer.<br/><br/> My undergraduate degree was in psychology: Creating great software products requires a deep understanding of the human mind as well as computing.<br/><br/> I currently have a 4.0 GPA in my Northwestern Classes.</div>
+                          I took a range of evening classes at Northwestern University in computer science and math while working as a UX designer.<br/><br/> My undergraduate degree was in psychology: Creating great software products requires a deep understanding of the human mind as well as computing.<br/><br/> I left Northwestern with a 4.0 GPA.</div>
                       </AccordionDetails>
                     </Accordion>
                     <Accordion className="Accordion">
@@ -80,7 +80,7 @@ class Coding extends Component {
                       <AccordionDetails>
                         <div className="body">
                           I've coded 10+ apps as class projects in a number of online courses I've taken, including Stanford's CS193p during the Spring of 2020. Among my projects were a weather app, a chat app, a to-do app, and an emoji-art creation app. <br/><br/>
-                          The most exciting side project I'm working on right now is a gamified education app for iOS and WatchOS called Mimir.
+                          The most exciting side project I'm working on right now is a gamified education app for iOS and WatchOS called Readmore.
                         </div>
                       </AccordionDetails>
                     </Accordion>

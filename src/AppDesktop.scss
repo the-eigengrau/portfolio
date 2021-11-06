@@ -12,6 +12,7 @@ $purp-dog:linear-gradient(39deg, rgba(54,19,240,1) 0%, rgba(158,0,197,1) 60%);
 @media only screen and (min-width: 768px) {
 
   .Links  {
+    z-index: 5;
     display:flex;
     flex-direction: row;
     position:relative;
@@ -72,7 +73,7 @@ $purp-dog:linear-gradient(39deg, rgba(54,19,240,1) 0%, rgba(158,0,197,1) 60%);
   display:block;
   text-align: center;
   font-family: 'Kumar One Outline', sans-serif;
-  color: $space-ghost-purp;
+  color: $hyper-violet;
   font-size:2.5em;
   font-weight:200;
   background-color:white;
@@ -101,7 +102,16 @@ $purp-dog:linear-gradient(39deg, rgba(54,19,240,1) 0%, rgba(158,0,197,1) 60%);
   }
 }
 
+.Header:hover {
+  transition: box-shadow 0.5s;
+  background-image: url("background-desktop@2x.png");
+  box-shadow: 10px 10px 10px $winter-grey;
+
+
+}
+
 .Header {
+  transition: box-shadow 0.5s;
   display:flex;
   justify-content: flex-start;
   flex-direction:row;
@@ -110,13 +120,14 @@ $purp-dog:linear-gradient(39deg, rgba(54,19,240,1) 0%, rgba(158,0,197,1) 60%);
   width:16.45em;
   border:1px solid $winter-grey;
   border-radius:300px;
-  background-image: url("background-desktop@2x.png");
+  background-image: url("Profile.png");
   background-size: cover;
   grid-column-start: 1;
   grid-row-start:1;
   margin: 20px;
   margin-left: 60px;
   box-shadow: 1px 1px 1px $winter-grey;
+
 
   .HeaderText {
     display:none;
@@ -174,6 +185,7 @@ $purp-dog:linear-gradient(39deg, rgba(54,19,240,1) 0%, rgba(158,0,197,1) 60%);
 }
 
 .FeaturedCaseStudy {
+  z-index: 10;
 
   span {
     color:$hyper-violet;
@@ -231,6 +243,24 @@ $purp-dog:linear-gradient(39deg, rgba(54,19,240,1) 0%, rgba(158,0,197,1) 60%);
     }
 
     .PortfolioImageOne:hover {
+      box-shadow: 10px 10px 10px $shadow-grey;
+      transition: box-shadow 0.5s;
+    }
+
+    .PortfolioImageThree {
+      width:100%;
+      height:8.0em;
+      background-color: $winter-grey;
+      border-radius:5px;
+      box-shadow: 2px 2px 2px $shadow-grey;
+      transition: box-shadow 0.2s;
+      background-image: url("./venture.jpg");
+      background-position: 95% 95%; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+
+    .PortfolioImageThree:hover {
       box-shadow: 10px 10px 10px $shadow-grey;
       transition: box-shadow 0.5s;
     }

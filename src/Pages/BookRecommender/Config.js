@@ -13,6 +13,10 @@ import grant from './BookImages/grant.jpg';
 import innov from './BookImages/innov.jpg';
 import light from './BookImages/light.jpg';
 
+import zero from './BookImages/zero.jpg';
+import founder from './BookImages/founder.jpg';
+import lean from './BookImages/lean.jpg';
+
 import hand from './BookImages/hand.jpg';
 import watts from './BookImages/watts.jpg';
 import harris from './BookImages/harris.jpg';
@@ -90,21 +94,21 @@ const config = {
     options: [
   {id: 1,
   title: "Founders Dilemmas by Noam Wasserman",
-  description: "This book showed me how a contradictory, imperfect person like Grant could demonstrate courage, greatness, and genius when their country called upon them to do so. It also exposed me to the horrors and triumphs of the Civil War and Reconstruction through the eyes of one of the era's greatest heroes.",
+  description: "Would you rather lead a massive venture where you can no longer call all the shots or a less succesful one where you're in control? For most founders, you can't have both. And the decisions you make in terms of hiring, investment, and growth tend to lead you in one direction or another. Understanding this central dilemma makes you much more likely to succeed. Strife between co-founders along these lines is frequently fatal for a budding firm.",
   link: "https://www.amazon.com/Age-Wonder-Romantic-Generation-Discovery/dp/1400031877/ref=sr_1_2?dchild=1&keywords=age+of+wonder&qid=1596805574&s=books&sr=1-2",
-  image: grant,
+  image: founder,
 },
 {id: 2,
 title: "Zero to One by Peter Thiel",
-description: "Sometimes technologists can hold a surprisingly ahistorical perspective, as if history started at the Google IPO. This book disabuses us of that notion and reminds us of the giants on whose shoulders we stand: Charles Babbage, Ada Lovelace, Grace Hopper, Bob Noyce, Vannevar Bush, and many others. This is also a book about how difficult personalities across disparate disciplines were able to come together to make brilliant advances.",
+description: "This book is an important tonic to the visionless, infinitely hedged, iterative approach that dominates the startup landscape today. Thiel implores us to work hard at uncovering meaningful secrets around which we can build businesses. What business that should exist is nobody building? What do you believe that nobody else believes? Answering these questions requires believing in something. The tension between Thiel and 'the lean startup' is highly generative. ",
 link: "https://www.amazon.com/Pattern-Stone-Computers-Science-Masters/dp/046502596X",
-image: innov,
+image: zero,
 },
 {id: 3,
 title: "The Lean Startup by Eric Ries",
-description: "Imagine trying to get user traction when your first product demo burned J.P Morgan's house to the ground? Or how about having to physically dig trenches and build power lines instead of doing a containerized Kubernetes deployment? The electrical revolution really makes what we do seem easy, huh? This book showed me how good we have it today, and also how self-education, hard work, technical depth, and understanding human beings can spark revolutions.",
+description: "Contrary to Peter Thiel, this book is a reminder that evidence and not belief is primary in startup land. We are implored to run experiments fast, gather data, and validate our problem and solution theses with real users. Gatther user feedback and improve our product, and business, as a whole. This is an extremely detailed operating manual for a tech startup, and tempered by 'Zero to One', it makes for a powerful tool kit.",
 link: "https://www.amazon.com/Chaos-Making-Science-James-Gleick/dp/0143113453/ref=sr_1_2?crid=2506IZKU77Z8J&dchild=1&keywords=chaos+james+gleick&qid=1596805547&s=books&sprefix=chaos+james+g%2Cstripbooks%2C202&sr=1-2",
-image: light,
+image: lean,
 },
 ],
 },

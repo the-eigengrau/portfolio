@@ -24,6 +24,57 @@ $purp-dog:rgb(54,19,240);
     grid-row:5;
   }
 
+  .passwordBlock {
+    display:flex;
+    flex-direction:column;
+    grid-column: 6;
+    grid-row:6;
+    margin-bottom:280px;
+  }
+
+  .passwordLabel {
+    padding-top:10px;
+    color:$hyper-violet;
+    font-family:'Open Sans', sans-serif;
+    font-weight:600;
+    grid-column: 6;
+    margin-left:0px;
+    margin-top:200px;
+  }
+
+  .passwordInput {
+    padding-top:10px;
+    color:$hyper-violet;
+    font-family:'Open Sans', sans-serif;
+    font-weight:600;
+    grid-column: 6;
+    border:1px solid $hyper-violet;
+    border-radius:3px;
+    margin-bottom:20px;
+  }
+
+  .CTA {
+    grid-column: 6;
+    grid-row:7;
+    height:35px;
+    background:$hyper-violet;
+    color:white;
+    border:none;
+    box-shadow:3px 3px 3px $shadow-grey;
+    transition:box-shadow 0.5s;
+  }
+
+  .CTA:hover {
+    transition:box-shadow 0.5s;
+    box-shadow:10px 10px 10px $shadow-grey;
+  }
+
+  .CTA:focus {
+    transition:box-shadow 0.25s;
+    box-shadow:1px 1px 3px $shadow-grey;
+    background:#c000e0;
+  }
+
   .Back{
     color:$hyper-violet;
     text-decoration: none;

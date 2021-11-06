@@ -29,6 +29,17 @@ class CaseStudies extends Component {
       <div className="PortfolioItems">
       <a className="ScrollButton" onClick={() => scroll.scrollMore(500)}><FiChevronsDown className="down"/></a>
 
+      <Link className="pLink" to='/design/casestudies/3'><div className="portfolioItem">
+      <div className="PortfolioImageThree"></div>
+        <p className="portfolioTitle">Founding design at a venture-backed startup</p>
+        <div className="tags">
+          <p>UX/UI</p>
+          <p>Design Leadership</p>
+          <p>Research/Strategy</p>
+        </div>
+      </div>
+      </Link>
+
       <Link className="pLink" to='/design/casestudies/1'><div className="portfolioItem">
         <div className="PortfolioImageOne"></div>
         <p className="portfolioTitle">Better health for patients at Northwestern </p>
@@ -50,24 +61,13 @@ class CaseStudies extends Component {
       </div>
       </Link>
 
-      <Link className="pLink" to='/design/casestudies/3'><div className="portfolioItem">
-      <div className="PortfolioImageThree"></div>
-        <p className="portfolioTitle">Helping engineers tell their story through design</p>
-        <div className="tags">
-          <p>UX/UI</p>
-          <p>Coding</p>
-          <p>Research/Strategy</p>
-        </div>
-      </div>
-      </Link>
-
       <Link className="pLink" to='/design/casestudies/4'><div className="portfolioItem">
       <div className="PortfolioImageFour"></div>
       <Element name="portfolioScroll"></Element>
       <div className="PortfolioImage"></div>
-        <p className="portfolioTitle">Founding design on a skilled, technical team</p>
+        <p className="portfolioTitle">Setting up my first design team from scratch</p>
         <div className="tags">
-          <p>Design Management</p>
+          <p>Design Leadership</p>
           <p>Research/Strategy</p>
         </div>
       </div>

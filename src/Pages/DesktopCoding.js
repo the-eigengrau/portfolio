@@ -26,10 +26,10 @@ class DesktopCoding extends Component {
       render: [
         <React.Fragment className="useraction">
           <div className="col1-useraction">
-            <p>I've been taking evening classes at Northwestern University in computer science and math while working as a UX designer.<br/><br/> My undergraduate degree was in psychology: Creating great software products requires a deep understanding of the human mind as well as computing.</p>  <p>I currently have a 4.0 GPA in my Northwestern Classes.</p>
+            <p>I took a host of evening classes at Northwestern University in computer science and math while working as a UX designer in Chicago.<br/><br/> My undergraduate degree was in psychology: Creating great software products requires a deep understanding of the human mind as well as computing.</p>  <p>I left Northwestern with a 4.0 GPA.</p>
           </div>
           <div className="col2-useraction">
-            <p>My program consists of:</p>
+            <p>My program consisted of:</p>
             <ul>
               <li>Object-Oriented Programming in Java</li>
               <li>Intro to Python for Data Science</li>
@@ -37,7 +37,10 @@ class DesktopCoding extends Component {
               <li>Applied Data Science</li>
               <li>Foundations of Higher Math</li>
               <li>Enterprise Data Science</li>
-              <li>Fall 2020 - Spring 2021: Computer Networks, Multivariable Calculus, Linear Algebra, Probability and Stochastic Processes, Information Security</li>
+              <li>Computer Networks</li>
+              <li>Finite Mathematics</li>
+              <li>Linear Algebra</li>
+              <li>Entrepreneurship and Technology</li>
             </ul>
           </div>
         </React.Fragment>,
@@ -47,7 +50,7 @@ class DesktopCoding extends Component {
             <p>I designed and developed the site mobile-first for the performance benefits and also because it brought more focus and clarity to my design.</p>
           </div>
           <div className="col2">
-            <p>DEPLOYMENT DETAILS</p>
+            <p>The site was deployed using yarn on github pages. A suprisingly decent and cost effective option.</p>
           </div>
         </React.Fragment>,
         <React.Fragment className='bartle'>
@@ -60,7 +63,7 @@ class DesktopCoding extends Component {
         </React.Fragment>,
         <React.Fragment className='anthro'>
           <div className="col1">
-            <p>I've coded 10+ apps as class projects in a number of online courses I've taken, including Stanford's CS193p during the Spring of 2020. Among my projects were a weather app, a chat app, a to-do app, and an emoji-art creation app.</p>
+            <p>I've coded 10+ apps as class projects in a number of online courses I've taken, including Stanford's CS193p (on youtube) during the Spring of 2020. Among my projects were a weather app, a chat app, a to-do app, and an emoji-art creation app.</p>
           </div>
           <div className="col2">
             <p>The most exciting side project I'm working on right now is a gamified education app for iOS and WatchOS called Mimir. We're using behavioral deisgn techniques and gamification to helps users read 10x more consistently, spark personal transformations through engaging with great books, and connect with others over reading.</p>
@@ -68,7 +71,7 @@ class DesktopCoding extends Component {
         </React.Fragment>,
         <React.Fragment className='dpsych'>
           <div className="col1">
-            <p>Aside from the above, I've also done extensive work in R/Shiny at work, coded a number of projects in Java, learned a small amount of C programming with my 13 year old brother in David Malan's CS50, and done a number of beginner Arduino projects with my girlfriend. <br/><br/> Can you tell that I love this stuff? 🥳</p>
+            <p>Aside from the above, I've also done extensive work in R/Shiny at work, coded a number of projects in Java, learned a small amount of C programming with my 13 year old brother in David Malan's CS50, and done a number of beginner Arduino projects with my girlfriend. <br/><br/> I'm an aficiando for sure. 🥳</p>
           </div>
           <div className="col2">
             <img src={hacker}></img>
