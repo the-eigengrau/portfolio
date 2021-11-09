@@ -19,7 +19,7 @@ class DesktopCoding extends Component {
       content: [
         'Classes at Northwestern University',
         'This Site in React',
-        "Data Science Projects in Python",
+        "Machine Learning Projects",
         'iOS Projects',
         'Other Projects'
       ],
@@ -102,7 +102,7 @@ class DesktopCoding extends Component {
     var dict = {
       'Classes at Northwestern University':0,
       'This Site in React': 1,
-      "Data Science Projects in Python":2,
+      "Machine Learning Projects":2,
       'iOS Projects':3,
       'Other Projects':4
     }
