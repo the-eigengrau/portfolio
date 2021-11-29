@@ -101,7 +101,7 @@ class Three extends React.Component {
                 <img src={persona4} className="ipo"/>
 
 
-                <p>I also created a mental model diagram to help us understand the intetrnal categorization of concerns and activities among our users. This type of diagram is helpful when you're thinking about coverage of a range of needs and concerns by your product/ecosystem. This is a large diagram that is intended to be printed and put up or examined panel by panel remotely in a workshop. These segments are adjacent in a row because then you can add a "line of interaction" underneath them and match user needs and concerns directly to product/partner features section by section.</p>
+                <p>I also created a mental model diagram to help us understand the internal categorization of concerns and activities among our users. This type of diagram is helpful when you're thinking about coverage of a range of needs and concerns by your product/ecosystem. This is a large diagram that is intended to be printed and put up or examined panel by panel remotely in a workshop. These segments are adjacent in a row because then you can add a "line of interaction" underneath them and match user needs and concerns directly to product/partner features section by section.</p>
 
                 <img src={mentalmodel} className="processgraphic"/>
 
